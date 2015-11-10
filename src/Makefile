@@ -149,7 +149,7 @@ endif
 
 ifeq ($(COMP),gcc)
 	comp=gcc
-	CXX=g++
+#	CXX=g++
 	CXXFLAGS += -pedantic -Wextra -Wshadow
 
 	ifeq ($(ARCH),armv7)
